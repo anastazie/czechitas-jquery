@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+
+body {
+	margin: 0;
+	padding: 1em;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+}
+
+section {
+	margin: 2em 0;
+	padding: 1em;
+	background-color: #f0f0f0;
+	border: 1px solid #c0c0c0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1 { font-size: 36px; }
+
+h2 { 
+	margin-top: 0;
+	font-size: 24px;
+	color: #aa4444;
+}
+
+nav > ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: 1px solid #c0c0c0;
+}
+
+button {
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: white;
+	background-color: #6688ff;
+	border: 1px solid #6688ff;
+	cursor: pointer;
+	outline: 0;
+}
+button:hover,
+button:focus {
+	background-color: #4466dd;
+}
+button:active {
+	background-color: #dd4466;
+	border: 1px solid #dd4466;
+}
+
+.info {
+	font-style: italic;
+	color: #6688ff;
+}
+
+.delete {
+	display: inline-block;
+	font-weight: 700;
+	color: red;
+	cursor: pointer;
+}
+
+.mark {
+	display: inline-block;
+	font-weight: 700;
+	color: #6688ff;
+	cursor: pointer;	
+}
+
+.text {
+	cursor: pointer;
+}
+
+.done .text {
+	text-decoration: line-through;
+}
+
+.important .text {
+	color: #6688ff;
+	font-weight: bold;
+}
